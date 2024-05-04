@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotebadClone", "NotebadClone.csproj", "{0B0847D5-C498-4C0E-86BA-4B92187AFCAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B0847D5-C498-4C0E-86BA-4B92187AFCAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B0847D5-C498-4C0E-86BA-4B92187AFCAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B0847D5-C498-4C0E-86BA-4B92187AFCAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B0847D5-C498-4C0E-86BA-4B92187AFCAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {420CD156-1C68-44E5-A34D-09614EA3694B}
+	EndGlobalSection
+EndGlobal

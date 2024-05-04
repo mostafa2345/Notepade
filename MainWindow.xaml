@@ -1,0 +1,66 @@
+﻿<Window x:Name="NotepadClone" x:Class="NotebadClone.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NotebadClone"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" Icon="/41297_about us_icon.png">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="97*"/>
+            <RowDefinition Height="120*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ActiveBorderColorKey}}"/>
+        </Grid.Background>
+        <TextBox x:Name="TextBox_txt" Margin="0,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="385" VerticalScrollBarVisibility="Visible" AcceptsReturn="True" Grid.RowSpan="2" FontSize="15" />
+        <Menu Margin="0,4,0,0" Height="40" VerticalAlignment="Top">
+            <MenuItem Header="_FIle" Height="25" Width="65" Click="MenuItem_Click" FontSize="20" Cursor="Hand" RenderTransformOrigin="0.462,1.13" VerticalAlignment="Center" VerticalContentAlignment="Center">
+                <MenuItem.Icon>
+                    <Image Source="/370080_folder_archive_data_document_documents_icon.png"></Image>
+                </MenuItem.Icon>
+                <MenuItem x:Name="New_menu"  Header="New"  Height="Auto" Width="Auto"   FontSize="20" Click="New_menu_Click"/>
+                <MenuItem x:Name="Open_Menu" Header="Open" Height="Auto" Width="Auto"   FontSize="20" Click="Open_Menu_Click"/>
+                <MenuItem x:Name="Save_AS_Menu" Header="Save As" Height="Auto" Width="Auto"  FontSize="20" Click="Save_AS_Menu_Click"/>
+                <MenuItem x:Name="Exit_Menu" Header="Exit" Height="Auto" Width="Auto"    FontSize="20" Click="Exit_Menu_Click"/>
+
+            </MenuItem>
+            <MenuItem Header="_Edit" FontSize="20" Margin="10,0,10,0" Cursor="Hand" >
+                <MenuItem.Icon>
+                    <Image Source="/8725775_edit_icon.png"></Image>
+                </MenuItem.Icon>
+                <MenuItem x:Name="Undo_Menu"  Header="Undo"  Height="Auto" Width="Auto"   FontSize="20" Click="Undo_Menu_Click"/>
+                <MenuItem x:Name="Redo_Menu"  Header="Redo"  Height="Auto" Width="Auto"   FontSize="20" Click="Redo_Menu_Click"/>
+                <MenuItem x:Name="Cut_MEnu"  Header="Cut"  Height="Auto" Width="Auto"   FontSize="20" Checked="Cut_MEnu_Checked"/>
+                <MenuItem x:Name="Copy_Menu"  Header="Copy"  Height="Auto" Width="Auto"   FontSize="20" Click="Copy_Menu_Click"/>
+                <MenuItem x:Name="Past_Menu"  Header="Paste"  Height="Auto" Width="Auto"   FontSize="20" Click="Past_Menu_Click"/>
+                <MenuItem x:Name="SellectAll_Menu"  Header="Select All"  Height="Auto" Width="Auto"   FontSize="20" Click="SellectAll_Menu_Click"/>
+            </MenuItem>
+            <MenuItem Header="F_ormat" FontSize="20" Margin="10,0,10,0" Cursor="Hand">
+                <MenuItem.Icon>
+                    <Image Source="/6771573_document_education_file_format_icon.png"></Image>
+                </MenuItem.Icon>
+                <MenuItem x:Name="Wordwarp_Menu"  Header="Word Warp"  Height="Auto" Width="Auto"   FontSize="20" Click="Wordwarp_Menu_Click" IsChecked="True" IsCheckable="True"/>
+            </MenuItem>
+            <MenuItem Header="_View" FontSize="20" Margin="10,0,10,0" Cursor="Hand">
+                <MenuItem.Icon>
+                    <Image Source="/5172950_business_eye_focus_internet_security_icon.png"></Image>
+                </MenuItem.Icon>
+                <MenuItem  Header=" Zoom"  Height="Auto" Width="Auto"   FontSize="20">
+                    <MenuItem x:Name="Zoom_in"  Header=" Zoom In"  Height="Auto" Width="Auto"   FontSize="20" Click="Zoom_in_Click"/>
+                    <MenuItem x:Name="Zoom_out"  Header=" Zoom Out"  Height="Auto" Width="Auto"   FontSize="20" Click="Zoom_out_Click"/>
+                    <MenuItem x:Name="Reset"  Header="Reset"  Height="Auto" Width="Auto"   FontSize="20" Click="Reset_Click"/>
+                </MenuItem>
+
+            </MenuItem>
+            <MenuItem Header="_Help" FontSize="20" Margin="10,0,10,0" Cursor="Hand">
+                <MenuItem.Icon>
+                    <Image Source="/2303158_contact us_headphones_headset_help_listne_icon.png"></Image>
+                </MenuItem.Icon>
+                <MenuItem x:Name="About"  Header="About"  Height="Auto" Width="Auto"   FontSize="20" Click="About_Click"/>
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>

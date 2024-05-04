@@ -1,0 +1,23 @@
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\bin\Debug\NotebadClone.exe.config
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\bin\Debug\NotebadClone.exe
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\bin\Debug\NotebadClone.pdb
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\obj\Debug\NotebadClone.csproj.AssemblyReference.cache
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\obj\Debug\MainWindow.g.cs
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\obj\Debug\App.g.cs
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\obj\Debug\NotebadClone_MarkupCompile.cache
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\obj\Debug\NotebadClone_MarkupCompile.lref
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\obj\Debug\MainWindow.baml
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\obj\Debug\NotebadClone.g.resources
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\obj\Debug\NotebadClone.Properties.Resources.resources
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\obj\Debug\NotebadClone.csproj.GenerateResource.cache
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\obj\Debug\NotebadClone.csproj.CoreCompileInputs.cache
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\obj\Debug\NotebadClone.exe
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\obj\Debug\NotebadClone.pdb
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\obj\Debug\About_Menu.g.cs
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\obj\Debug\About_Menu.baml
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\bin\Debug\images\About_US\41297_about us_icon.png
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\bin\Debug\images\About_US\2303158_contact us_headphones_headset_help_listne_icon.png
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\bin\Debug\images\About_US\370080_folder_archive_data_document_documents_icon.png
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\bin\Debug\images\About_US\5172950_business_eye_focus_internet_security_icon.png
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\bin\Debug\images\About_US\6771573_document_education_file_format_icon.png
+C:\Users\mostafa waheed\Desktop\welcome back\NotebadClone\bin\Debug\images\About_US\8725775_edit_icon.png

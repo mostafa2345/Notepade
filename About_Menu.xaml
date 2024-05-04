@@ -1,0 +1,19 @@
+﻿<Window x:Name="About_Wnidow" x:Class="NotebadClone.About_Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NotebadClone"
+        mc:Ignorable="d"
+        Title="About Us" Height="350" Width="660" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Icon="/41297_about us_icon.png">
+    <Grid>
+        <Grid.Background>
+            <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.AppWorkspaceColorKey}}"/>
+        </Grid.Background>
+        <Button x:Name="OK_About" Content="Ok" HorizontalAlignment="Left" Margin="520,269,0,0" VerticalAlignment="Top" Height="30" Width="85" Click="OK_About_Click"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="10,14,0,0" VerticalAlignment="Top" Width="100" Source="/41297_about us_icon.png" Stretch="Fill"/>
+        <Label Content="NotePad Clone" HorizontalAlignment="Left" Margin="262,18,0,0" VerticalAlignment="Top" Height="46" Width="168" FontSize="20"/>
+        <Label Content="©Mostafa waheed" HorizontalAlignment="Left" Margin="5,279,0,0" VerticalAlignment="Top" Height="40" Width="175" FontSize="20"/>
+
+    </Grid>
+</Window>
